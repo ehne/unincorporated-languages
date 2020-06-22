@@ -1,0 +1,75 @@
+/* The version of Bourbon used in this Pen was 5.* */
+@import "bourbon";
+@function accentColor($hue,$lightShift:0){
+	@return hsl($hue,43,60+$lightShift)
+}
+@for $i from 0 through 36{
+			.accent-#{$i}{
+				background-color:accentColor($i*10)
+			}
+}
+
+$fg: hsl(27,43,90);
+$bg: hsl(27,43,9);
+body{
+	background-color:$bg;
+	color:$fg;
+	font-family:"Inter";
+	font-size:1.3em
+}
+.main{
+	padding:1em;
+	max-width:600px;
+	@include margin(null auto);
+	padding-top:1.3em
+}
+.main>.m{
+	margin-bottom:1em
+}
+.langugages{
+}
+h3{
+		font-weight:800;
+		font-style:italic;
+}
+.langs-container{
+	margin-top:0.5em
+}
+.language{
+	background-color:$fg;
+	color:$bg;
+	margin-bottom:0.5em;
+	border-radius:4px;
+	&:hover{
+			text-decoration:underline
+		}
+	.bottom{
+		padding:1em;
+		font-weight: 900;
+		font-style:italic;
+		.arrow{
+			font-weight:500
+		}
+	}
+	.top{
+		height:150px;
+		
+		@include border-top-radius(4px);
+		display:flex;
+		align-items:center;
+		justify-content:center;
+	}
+	
+}
+
+.coming-soon{
+	display:flex;
+	justify-content:center;
+	.text{
+		@include padding(0.2em 0.5em);
+		border:2px solid hsl(27,43,30);
+		border-radius:4px;
+		color:hsl(27,43,30);
+		text-align:center
+	}
+}

@@ -1,0 +1,213 @@
+.accent-0 {
+  background-color: #c56d6d;
+}
+
+.accent-1 {
+  background-color: #c57c6d;
+}
+
+.accent-2 {
+  background-color: #c58a6d;
+}
+
+.accent-3 {
+  background-color: #c5996d;
+}
+
+.accent-4 {
+  background-color: #c5a86d;
+}
+
+.accent-5 {
+  background-color: #c5b66d;
+}
+
+.accent-6 {
+  background-color: #c5c56d;
+}
+
+.accent-7 {
+  background-color: #b6c56d;
+}
+
+.accent-8 {
+  background-color: #a8c56d;
+}
+
+.accent-9 {
+  background-color: #99c56d;
+}
+
+.accent-10 {
+  background-color: #8ac56d;
+}
+
+.accent-11 {
+  background-color: #7cc56d;
+}
+
+.accent-12 {
+  background-color: #6dc56d;
+}
+
+.accent-13 {
+  background-color: #6dc57c;
+}
+
+.accent-14 {
+  background-color: #6dc58a;
+}
+
+.accent-15 {
+  background-color: #6dc599;
+}
+
+.accent-16 {
+  background-color: #6dc5a8;
+}
+
+.accent-17 {
+  background-color: #6dc5b6;
+}
+
+.accent-18 {
+  background-color: #6dc5c5;
+}
+
+.accent-19 {
+  background-color: #6db6c5;
+}
+
+.accent-20 {
+  background-color: #6da8c5;
+}
+
+.accent-21 {
+  background-color: #6d99c5;
+}
+
+.accent-22 {
+  background-color: #6d8ac5;
+}
+
+.accent-23 {
+  background-color: #6d7cc5;
+}
+
+.accent-24 {
+  background-color: #6d6dc5;
+}
+
+.accent-25 {
+  background-color: #7c6dc5;
+}
+
+.accent-26 {
+  background-color: #8a6dc5;
+}
+
+.accent-27 {
+  background-color: #996dc5;
+}
+
+.accent-28 {
+  background-color: #a86dc5;
+}
+
+.accent-29 {
+  background-color: #b66dc5;
+}
+
+.accent-30 {
+  background-color: #c56dc5;
+}
+
+.accent-31 {
+  background-color: #c56db6;
+}
+
+.accent-32 {
+  background-color: #c56da8;
+}
+
+.accent-33 {
+  background-color: #c56d99;
+}
+
+.accent-34 {
+  background-color: #c56d8a;
+}
+
+.accent-35 {
+  background-color: #c56d7c;
+}
+
+.accent-36 {
+  background-color: #c56d6d;
+}
+
+body {
+  background-color: #21160d;
+  color: #f0e4db;
+  font-family: "Inter";
+  font-size: 1.3em;
+}
+
+.main {
+  padding: 1em;
+  max-width: 600px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 1.3em;
+}
+
+.main > .m {
+  margin-bottom: 1em;
+}
+
+h3 {
+  font-weight: 800;
+  font-style: italic;
+}
+
+.langs-container {
+  margin-top: 0.5em;
+}
+
+.language {
+  background-color: #f0e4db;
+  color: #21160d;
+  margin-bottom: 0.5em;
+  border-radius: 4px;
+}
+.language:hover {
+  text-decoration: underline;
+}
+.language .bottom {
+  padding: 1em;
+  font-weight: 900;
+  font-style: italic;
+}
+.language .bottom .arrow {
+  font-weight: 500;
+}
+.language .top {
+  height: 150px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.coming-soon {
+  display: flex;
+  justify-content: center;
+}
+.coming-soon .text {
+  padding: 0.2em 0.5em;
+  border: 2px solid #6d492c;
+  border-radius: 4px;
+  color: #6d492c;
+  text-align: center;
+}
