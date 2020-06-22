@@ -192,6 +192,8 @@ h3 {
   font-weight: 500;
 }
 .language .top {
+  padding-left: 1em;
+  padding-right:1em;
   height: 150px;
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
@@ -199,7 +201,9 @@ h3 {
   align-items: center;
   justify-content: center;
 }
-
+.language .image{
+  max-width:15em;
+}
 .coming-soon {
   display: flex;
   justify-content: center;
