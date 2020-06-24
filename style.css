@@ -179,9 +179,16 @@ h3 {
   color: #21160d;
   margin-bottom: 0.5em;
   border-radius: 4px;
+  transition: all cubic-bezier(0.39, 0.575, 0.565, 1) 0.25s;
+
 }
 .language:hover {
   text-decoration: underline;
+}
+
+.language:hover {
+  transform: scale(1.007);
+  border-radius:4px;
 }
 .language .bottom {
   padding: 1em;
