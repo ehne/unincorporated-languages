@@ -165,9 +165,7 @@ body {
 .main > .m {
   margin-bottom: 1em;
 }
-.flag{
-  padding-bottom:11px;
-}
+
 .flag > * {
   height:11px
 }
@@ -227,4 +225,22 @@ h3 {
   border-radius: 4px;
   color: #6d492c;
   text-align: center;
+}
+
+.footer{
+  padding: 1em;
+  max-width: 600px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 2em;
+  text-align: center;
+  color:#6d492c;
+  
+}
+.footer [href]{
+  text-decoration: underline;
+  transition: all cubic-bezier(0.39, 0.575, 0.565, 1) 0.25s
+}
+.footer [href]:hover{
+  color: #f0e4db;
 }
