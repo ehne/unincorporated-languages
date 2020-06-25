@@ -159,12 +159,18 @@ body {
   margin-right: auto;
   margin-left: auto;
   padding-top: 2em;
+  min-height: 100vh;
 }
 
 .main > .m {
   margin-bottom: 1em;
 }
-
+.flag{
+  padding-bottom:11px;
+}
+.flag > * {
+  height:11px
+}
 h3 {
   font-weight: 800;
   font-style: italic;
